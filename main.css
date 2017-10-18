@@ -1,0 +1,51 @@
+body{
+  font-family: sans-serif;
+  font-size: 200%;
+  margin: 5%;
+}
+nav{
+  width: 23%;
+}
+
+ul{
+  list-style: none;
+  line-height: 150%;
+  margin: 0;
+  padding: 0;
+  /*outline: 1px solid green;*/
+}
+
+li{
+/*  outline: 1px solid red;*/
+  background:#f5f5f0;
+}
+
+a{        /*a tiene varios estados: Link, Visited, Hover, Active */
+  display: block;
+  text-decoration: none;
+  /*outline: 1px solid orange;*/
+  color: #000;
+  padding-left: 10%;
+}
+a:hover{
+  background: #e0e0d1;
+}
+
+a:active{
+  background:#333;
+  color:#fff;
+}
+
+ul li:first-child{
+  background: orange;
+}
+
+ul li:first-child a{
+  color:#fff;
+}
+ul li:first-child a:hover{
+  color:#000;
+}
+ul li:first-child a:active{
+  color:#fff;
+}
